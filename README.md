@@ -18,19 +18,22 @@ Table of Contents
 
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+```
 
 
-2.**Clone the repository:**
+2. **Create virtual environment and activate:**
 ```bash
 
 
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install packages:
-
+```
+3. **Install packages:**
+```bash
 pip install -r requirements.txt
-Configure databases:
-
+```
+4. **Configure databases**:
+```bash
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -41,22 +44,31 @@ DATABASES = {
         'PORT': 'your-database-port',
     }
 }
-Migration:
-
+```
+5 .**Migration:**
+```bash
 python manage.py migrate
 python manage.py createsuperuser
-Usage
-Run project:
+```
 
-python manage.py runserver
-Access the application:
+## Usage
 
+1.**Run project**:
+```
+python manage.py runserver\
+```
+2.**Access the application:**
+```
 Open your browser and navigate to http://127.0.0.1:8000/.
-Admin Panel:
-
+```
+3.**Admin Panel**:
+```
 You can access the admin panel at http://127.0.0.1:8000/admin with the superuser credentials created earlier.
-Configuration
-Environment Variables
+```
+## Configuration
+
+1.**Environment Variables**
+```
 DJANGO_SECRET_KEY: Your Django secret key.
 DB_NAME: The name of your database.
 DB_USER: The database user.
@@ -64,15 +76,27 @@ DB_PASSWORD: The database password.
 DB_HOST: The database host.
 DB_PORT: The database port.
 You can set these variables in a .env file in the root directory.
-Docker Setup
-Build the Docker images:
+```
+## Docker Setup
+
+1.**Build the Docker images:**
+```
 docker-compose build
-Run the containers:
+```
+2.**Run the containers:**
+```
 docker-compose up
-Apply migrations inside the Django container:
+```
+3.**Apply migrations inside the Django container**
+```
 docker-compose exec web python manage.py migrate
-Create a superuser inside the Django container:
+```
+4.**Create a superuser inside the Django container:**
+```
 docker-compose exec web python manage.py createsuperuser
-Access the application:
+```
+5.**Access the application:**
+```
 Open your browser and navigate to http://127.0.0.1:8000/.
+```
 
