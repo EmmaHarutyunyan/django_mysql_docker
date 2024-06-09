@@ -1,4 +1,3 @@
-![Python](https://img.shields.io/static/v1?label=Python&message=3.12&color=verde?style=plastic&logo=Python)
 ![Django](https://img.shields.io/static/v1?label=Django&message=5.0&color=azul?style=plastic&logo=django)
 ![MySQL](https://img.shields.io/static/v1?label=MySQL&message=8.0&color=hex?style=plastic&logo=MySQL)
 ![Docker](https://img.shields.io/static/v1?label=Docker&message=20.10&color=hex?style=plastic&logo=docker)
