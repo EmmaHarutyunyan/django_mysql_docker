@@ -11,7 +11,7 @@ Table of Contents
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
-#
+## Installation
 
 1 .**Clone the repository:**
 ```bash
@@ -19,8 +19,10 @@ Table of Contents
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-#
-2.**Create virtual envoirement and activate:**
+
+2.**Clone the repository:**
+```bash
+
 
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
