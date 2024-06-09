@@ -1,6 +1,7 @@
-- #
-[![Django](https://img.shields.io/static/v1?label=Django&message=4.2&color=azul?style=plastic&logo=django)]
 
+[![Django](https://img.shields.io/static/v1?label=Django&message=5.0&color=azul?style=plastic&logo=django)]
+
+ #
 
 Table of Contents
 - [Installation](#installation)
