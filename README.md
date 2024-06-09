@@ -1,9 +1,8 @@
 Table of Contents
-Installation
-Usage
-Configuration
-Docker Setup
-Project Structure
-Contributing
-License
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Docker Setup](#docker-setup)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
