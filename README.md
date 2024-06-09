@@ -1,6 +1,6 @@
-![Django](https://img.shields.io/static/v1?label=Django&message=5.0&color=hex=plastic&logo=django)
-![MySQL](https://img.shields.io/static/v1?label=MySQL&message=8.0&color=00758F&style=for-the-badge&logo=mysql)
-![Docker](https://img.shields.io/static/v1?label=Docker&message=20.10&color=2496ED&style=plastic&logo=docker)
+![Django](https://img.shields.io/static/v1?label=Django&message=5.0&color=092E20&style=plastic&logo=django&logoWidth=40&logoHeight=40)
+![MySQL](https://img.shields.io/static/v1?label=MySQL&message=8.0&color=00758F&style=plastic&logo=mysql&logoWidth=40&logoHeight=40)
+![Docker](https://img.shields.io/static/v1?label=Docker&message=20.10&color=2496ED&style=plastic&logo=docker&logoWidth=40&logoHeight=40)
 
 
 
