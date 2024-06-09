@@ -13,12 +13,12 @@ Table of Contents
 - [License](#license)
 #
 
-1 **Clone the repository:**
+1 .**Clone the repository:**
 ```bash
 
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-Create virtual envoirement and activate:
+2.Create virtual envoirement and activate:
 
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
