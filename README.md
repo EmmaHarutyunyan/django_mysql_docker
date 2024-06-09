@@ -99,4 +99,34 @@ docker-compose exec web python manage.py createsuperuser
 ```
 Open your browser and navigate to http://127.0.0.1:8000/.
 ```
+## Project Structure
+```
+.
+├── docker-compose.yml
+├── Dockerfile
+├── .env
+├── manage.py
+├── requirements.txt
+├── myproject
+│ ├── init.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── wsgi.py
+│ └── ...
+└── ...
+```
+## Contributing
+
+```
+   Contributions are welcome! Please follow these steps:
+   
+   Fork the repository.
+   Create a new branch (git checkout -b feature/your-feature).
+   Commit your changes (git commit -am 'Add some feature').
+   Push to the branch (git push origin feature/your-feature).
+   Create a new Pull Request.
+```
+
+
+
 
