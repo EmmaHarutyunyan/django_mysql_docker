@@ -17,7 +17,7 @@ Table of Contents
 
 1 .**Clone the repository:**
 ```bash
-[
+
 git clone https://github.com/EmmaHarutyunyan/django_mysql_docker.git
 ```
 
